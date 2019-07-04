@@ -39,8 +39,8 @@ RCT_EXPORT_MODULE();
 RCT_EXPORT_METHOD(close) {
     [extensionContext completeRequestReturningItems:nil
                                   completionHandler:nil];
+   exit(0);
 }
-
 
 
 RCT_REMAP_METHOD(data,
